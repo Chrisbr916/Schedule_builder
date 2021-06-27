@@ -26,11 +26,40 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p>The currennt time and day is: </p><p id="currentDay" class="lead"></p>
+      <script>
+          var dt = new Date();
+          document.getElementById('currentDay').innerHTML=dt;
+      </script>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class="card border-primary mb-3" style= "margin: 0;">
+                    <div class="card-header">8 AM</div>
+                    <div class="card-body text-primary">
+                      <h5 class="card-title">Primary card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="input-group mb-3">
+                          <!--this is where the form starts-->
+                        <input type="text" class="form-control" placeholder="Please Enter Event" aria-label="Recipient's username" aria-describedby="button-addon2">
+                          <button class="btn btn-outline-secondary" type="button" id="saveAct">Save</button>
+                        </div>
+                    </div>
     </div>
+    <div class="card border-primary mb-3" style= "margin: 0;">
+    <div class="card-header">9 AM</div>
+    <div class="card-body text-primary">
+      <h5 class="card-title">Primary card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="input-group mb-3">
+          <!--this is where the form starts-->
+        <input type="text" class="form-control" placeholder="Please Enter Event" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary" type="button" id="saveAct">Save</button>
+        </div>
+    </div>
+    </div>
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
