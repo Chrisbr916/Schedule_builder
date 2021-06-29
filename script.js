@@ -33,6 +33,13 @@ var renderActivity = function(){
     printActivity(localStorage.getItem("8"),8)
     printActivity(localStorage.getItem("9"),9)
     printActivity(localStorage.getItem("10"),10)
+    printActivity(localStorage.getItem("11"),11)
+    printActivity(localStorage.getItem("12"),12)
+    printActivity(localStorage.getItem("13"),13)
+    printActivity(localStorage.getItem("14"),14)
+    printActivity(localStorage.getItem("15"),15)
+    printActivity(localStorage.getItem("16"),16)
+    printActivity(localStorage.getItem("17"),17)
 }
 renderActivity();
 
