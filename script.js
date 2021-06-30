@@ -28,7 +28,7 @@ var printActivity = function(activity,i){
     
 };
 
-
+// this is what makes each comment stay within the box that they are supposed to be added in 
 var renderActivity = function(){
     printActivity(localStorage.getItem("8"),8)
     printActivity(localStorage.getItem("9"),9)
